@@ -9,6 +9,12 @@
     padding-right: 15px;
 }
 
+.index_home {
+  background-image: url("images/golf-sunset-sport-golfer.png");
+    height: 800px;
+}
+
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
