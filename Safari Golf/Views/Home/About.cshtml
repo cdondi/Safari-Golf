@@ -1,7 +1,72 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About Safari Golf";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<div class="about_page">
+    <div class="inner-content">
+        <p>
+           <strong>@ViewBag.Title.</strong>
+        </p>
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <p>
+                    Safari Golf Club of Houston was formed by a group of friends who share a passion for the game of golf. We seek to grow as a club and look forward to exciting things in 2017 and beyond.
+                </p>
+                <p>
+                    We host tournaments once a month from February to November at different courses around the Houston area. The tournaments are open to guests who have not yet signed up as members of the club. The registration fee is $20.00 per tournament for each participant.
+                </p>
+                <p>
+                    After each tournament, club members accrue points that count towards Safari Cup, an award presented to the best player at the end of the season. The presentation of the Safari Cup is a highly anticipated event which ensures that participants perform their best at each tournament. For more information about Safari Cup, Please @Html.ActionLink("contact us", "Contact", "Home").
+                </p>
+                <p>
+                    We welcome guests as well as new members (men, women, and teenagers) to participate in various events throughout the year. We accomodate golfers at every skill level and provide USGA handicap services for paying members.
+                    Starting this year, we plan to sponsor family events where young children can also get involved. Please take a look at our @Html.ActionLink("schedule", "About", "Home") and @Html.ActionLink("contact us", "Contact", "Home") if you would like to participate in any of these events.
+                </p>
+                <p>
+                    Our annual membership fee is $60.00 in addition to the $20.00 registration fee for each tournament. There are prizes to be won for different categories during each tournament.
+                </p>
+            </div>
+
+            <div class="col-md-6 col-lg-6">
+                <p>
+                    <strong>The mission of Safari Golf Club of Houston is : </strong>
+                    <ul>
+                        <li>
+                            To promote and foster among the members, friendship, good sportsmanship and fraternity for their joint and mutual benefit.
+                        </li>
+                        <li>
+                            To promote and conserve the best interests and true spirit of the game of golf as embodied in its ancient and honorable traditions.
+                        </li>
+                        <li>
+                            To encourage conformance to the USGA Rules of Golf.
+                        </li>
+                        <li>
+                            To maintain a uniform system of handicapping as set forth in the USGA Handicap System and issue USGA Handicap Indexes to the members.
+                        </li>
+                        <li>
+                            To foster relationships between club members and golfers/Golf clubs and to establish channels to reciprocate affiliations to promote and conserve the best interests and true spirit of Golf.
+                        </li>
+                    </ul>
+                    <strong>Ways to participate : </strong>
+                    <ul>
+                        <li>
+                            Please @Html.ActionLink("contact us", "Contact", "Home") to sign up as a member or participate in any of our events as a guest.
+                        </li>
+                        <li>
+                            Bring a friend or family member to any of our events and encourage them to sign up.
+                        </li>
+                        <li>
+                            Purchase an item from our merchandise page.
+                        </li>
+                        <li>
+                            @Html.ActionLink("Contact us", "Contact", "Home") if you would like to sponsor an event at any time during the year.
+                        </li>
+                        <li>
+                            Like our facebook page and follow us for updates.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

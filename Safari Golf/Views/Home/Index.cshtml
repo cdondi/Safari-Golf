@@ -3,21 +3,21 @@
 }
 
 <div class="index_home">
-    <div class="jumbotron">
-        <h3>Safari Golf Club of Houston</h3>
-        <h4>A member of Safari Golf Clubs</h4>
-        <p class="lead"></p>
-        <p><a href="http://asp.net" class="btn btn-primary btn-sm">Our History &raquo;</a></p>
-        
+    <div class="inner-content">
         <div class="row">
-            <div class="col-md-4">
-
+            <div class="col-md-8">
+                <h3>Safari Golf Club of Houston</h3>
+                <h4>A member of Safari Golf Clubs</h4>
+                <p class="lead"></p>
+                <p>
+                    @Html.ActionLink("About Us >>", "About", "Home", new { @class = "btn btn-primary btn-sm" })
+                </p>
             </div>
             <div class="col-md-4">
-                <h2>Recent Events:</h2>
+                <h4>Recent Events:</h4>
             </div>
             <div class="col-md-4">
-                <h2>Upcoming Events:</h2>
+                <h4>Upcoming Events:</h4>
             </div>
         </div>
     </div>

@@ -211,6 +211,10 @@
     <Content Include="Content\bootstrap-sandstone.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\driver_tee.jpg" />
+    <Content Include="Content\images\golf_bag.jpg" />
+    <Content Include="Content\images\golf_ball_solo.jpg" />
+    <Content Include="Content\images\grass_pattern.jpg" />
     <Content Include="Content\images\home_background.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

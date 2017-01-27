@@ -1,11 +1,13 @@
-﻿body {
+﻿
+body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background: #F8F8F8; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#F8F8F8, #E8E8E8  ); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F8F8F8, #E8E8E8  ); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F8F8F8, #E8E8E8  ); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F8F8F8, #E8E8E8  ); /* Standard syntax (must be last) */
+    background: #FFFFFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F8F8F8, #FFFFFF  ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F8F8F8, #FFFFFF  ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F8F8F8, #FFFFFF  ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F8F8F8, #FFFFFF  ); /* Standard syntax (must be last) */
+    height: 800px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -14,11 +16,68 @@
     padding-right: 15px;
 }
 
+.default_page {
+  background-image: url("images/golf_ball_solo.jpg");
+    height: 600px;
+}
+
+.about_page {
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(#FFFFFF 99%, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#FFFFFF 99%, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-radial-gradient(#FFFFFF 99%, lightgray); /* For Firefox 3.6 to 15 */
+    background: radial-gradient( #FFFFFF 99%, lightgray); /* Standard syntax (must be last) */
+    height: 600px;
+}
+
 .index_home {
   background-image: url("images/home_background.jpg");
     height: 600px;
 }
 
+.inner-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+.inner-content h1,
+.inner-content h2,
+.inner-content h3,
+.inner-content h4 {
+  color: whitesmoke;
+}
+.inner-content p {
+  margin-bottom: 15px;
+}
+.inner-content > hr {
+  border-top-color: #e8decd;
+}
+
+.container .inner-content,
+.container-fluid .inner-content {
+  border-radius: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.inner-content .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .inner-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .inner-content,
+  .container-fluid .inner-content {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .inner-content h1,
+  .inner-content .h1 {
+    font-size: 63px;
+  }
+}
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
