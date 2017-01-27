@@ -26,7 +26,8 @@
                     <li>@Html.ActionLink("Stats", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Schedule", "About", "Home")</li>
                     <li>@Html.ActionLink("Photos", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Photos", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Anouncements", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Merchandaise", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -35,8 +36,7 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
+        <footer class="default_footer">
             <p>&copy; @DateTime.Now.Year - Safari Golf Club of Houston</p>
         </footer>
     </div>
