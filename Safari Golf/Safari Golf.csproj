@@ -216,6 +216,7 @@
     <Content Include="Content\images\golf_ball_solo.jpg" />
     <Content Include="Content\images\grass_pattern.jpg" />
     <Content Include="Content\images\home_background.jpg" />
+    <Content Include="Content\images\safari_golf_logo_white_md.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
