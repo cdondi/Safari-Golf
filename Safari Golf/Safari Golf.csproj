@@ -196,8 +196,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MediaController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\ScheduleController.cs" />
+    <Compile Include="Controllers\StatsController.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -216,7 +222,11 @@
     <Content Include="Content\images\golf_ball_solo.jpg" />
     <Content Include="Content\images\grass_pattern.jpg" />
     <Content Include="Content\images\home_background.jpg" />
-    <Content Include="Content\images\safari_golf_logo_white_md.png" />
+    <Content Include="Content\images\safari_golf_logo_20.png" />
+    <Content Include="Content\images\safari_golf_logo_20_lg.png" />
+    <Content Include="Content\images\safari_golf_logo_40_lg.png" />
+    <Content Include="Content\images\safari_golf_logo_40.png" />
+    <Content Include="Content\images\safari_golf_logo_50.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -274,6 +284,13 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Home\Schedule.cshtml" />
+    <Content Include="Views\Schedule\Index.cshtml" />
+    <Content Include="Views\Stats\Index.cshtml" />
+    <Content Include="Views\Media\Index.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\Store\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -20,8 +20,6 @@ namespace Safari_Golf.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact Information";
-
             return View();
         }
     }

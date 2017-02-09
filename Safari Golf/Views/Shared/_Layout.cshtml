@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Safari Golf Club</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -17,18 +17,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Safari Golf", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Safari Golf Club", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About Us", "About", "Home")</li>
-                    <li>@Html.ActionLink("Stats", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Schedule", "About", "Home")</li>
-                    <li>@Html.ActionLink("Photos", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Anouncements", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Merchandise", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Stats", "Index", "Stats")</li>
+                    <li>@Html.ActionLink("Schedule", "Index", "Schedule")</li>
+                    <li>@Html.ActionLink("Photos", "Index", "Media")</li>
+                    <li>@Html.ActionLink("Anouncements", "Index", "News")</li>
+                    <li>@Html.ActionLink("Merchandise", "Index", "Store")</li>
                     <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Admin", "Index", "Admin")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -45,4 +46,7 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
+
+
+
 </html>
