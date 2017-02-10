@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace Safari_Golf.Models
+namespace SafariGolf.Models
 {
     public class IndexViewModel
     {

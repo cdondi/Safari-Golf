@@ -8,9 +8,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Safari_Golf.Models;
+using SafariGolf.Models;
 
-namespace Safari_Golf.Controllers
+namespace SafariGolf.Controllers
 {
     [Authorize]
     public class AccountController : Controller

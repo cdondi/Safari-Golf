@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Safari_Golf.Models;
+using SafariGolf.Models;
 
-namespace Safari_Golf
+namespace SafariGolf
 {
     public partial class Startup
     {

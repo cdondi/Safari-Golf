@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(Safari_Golf.Startup))]
-namespace Safari_Golf
+[assembly: OwinStartupAttribute(typeof(SafariGolf.Startup))]
+namespace SafariGolf
 {
     public partial class Startup
     {

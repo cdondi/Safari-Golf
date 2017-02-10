@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Safari_Golf.Models;
+using SafariGolf.Models;
 
-namespace Safari_Golf
+namespace SafariGolf
 {
     public class EmailService : IIdentityMessageService
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Safari_Golf.Controllers
+namespace SafariGolf.Controllers
 {
     public class StatsController : Controller
     {

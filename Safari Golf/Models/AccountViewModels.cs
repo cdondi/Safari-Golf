@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Safari_Golf.Models
+namespace SafariGolf.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
