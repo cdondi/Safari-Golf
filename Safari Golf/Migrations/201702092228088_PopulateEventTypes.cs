@@ -1,4 +1,4 @@
-namespace Safari_Golf.Migrations
+namespace SafariGolf.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
