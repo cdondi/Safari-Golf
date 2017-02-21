@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SafariGolf.Models;
+using SafariGolf.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,14 +10,31 @@ namespace SafariGolf.Controllers
 {
     public class AdminController : Controller
     {
+        private ApplicationDbContext _context;
+
+        public AdminController()
+        {
+            _context = new ApplicationDbContext();
+        }
         // GET: Admin
         public ActionResult Index()
         {
-            return View();
+            var eventTypes = _context.EventTypes.ToList();
+            var viewModel = new EventFormViewModel
+            {
+                EventTypes = eventTypes
+            };
+            return View(viewModel);
         }
 
         // GET: Admin/Details/5
         public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult CreateEvent(Event newEvent)
         {
             return View();
         }

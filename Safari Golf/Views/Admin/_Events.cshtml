@@ -1,15 +1,17 @@
 ﻿@model SafariGolf.ViewModels.EventFormViewModel
-<form class="form-horizontal" style="margin-top: 10px;">
+@*<form class="form-horizontal" style="margin-top: 10px;">*@
+@using(Html.BeginForm("CreateEvent", "Admin"))
+{
     <fieldset>
         <div class="form-group">
             @Html.LabelFor(m => m.Title)
             @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
         </div>
 
-        @*<div class="form-group">
-                @Html.LabelFor(m => m.EventTypeId)
-                @Html.DropDownListFor(m => m.EventTypeId, new SelectList(Model.EventTypes, "Id", "Name"), "Select Event Type", new { @class = "form-control" })
-            </div>*@
+        <div class="form-group">
+            @Html.LabelFor(m => m.EventTypeId)
+            @Html.DropDownListFor(m => m.EventTypeId, new SelectList(Model.EventTypes, "Id", "Name"), "", new { @class = "form-control" })
+        </div>
 
         <div class="form-group">
             @Html.LabelFor(m => m.Description)
@@ -47,5 +49,8 @@
                 @Html.CheckBoxFor(m => m.IsActive) Is event active ?
             </label>
         </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
     </fieldset>
-</form>
+}
+@*</form>*@
